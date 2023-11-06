@@ -42,4 +42,25 @@
    border: 3px solid salmon;
  }
  
- 
+ #pacofrevo {
+  border: 2px;
+  border-color: bisque;
+  border-radius: 2%;
+  width: 30%;
+  align-items:center;
+ }
+
+main {
+  text-align: center;
+  display: flex;
+}
+
+
+
+#caisdosertao {
+  border: 2px;
+  border-color: bisque;
+  border-radius: 2%;
+  width: 30%;
+  align-items:center;
+ }
