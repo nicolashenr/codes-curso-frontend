@@ -1,66 +1,74 @@
-#banner {
-    width: 900px;
-    height: 400px;
-    border-radius: 5%;
-    border: 2px solid rgb(54, 50, 50);
-   }
- 
- body {
-     background-color: #008000 ;
-   }
- 
- .header nav {
-     display: flex;
-     background-color: aqua;
-   }
- 
- #lista-nav {
-     list-style: none;
-     flex-direction: row;
-     display: flex;
-     justify-content: space-around;
-     background-color: azure;
- }
- 
- h1 {
-     font-weight: 900;
-     font-size: 350%;
-     font-style: oblique;
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- }
- 
- header {
-   text-align: center;
-   background-color:darkorange;
- }
- 
- section {
-   text-align: center;
-   margin-top: 0 auto;
-   margin-bottom: 0 auto;
-   justify-content: center;
-   border: 3px solid salmon;
- }
- 
- #pacofrevo {
-  border: 2px;
-  border-color: bisque;
-  border-radius: 2%;
-  width: 30%;
-  align-items:center;
- }
+body {
+  border: 3px solid black;
+}
 
-main {
+header {
+  border: 3px solid blue;
+  display: flexbox;
   text-align: center;
+  margin: 0 auto;
+  padding: auto;
+  background-color: darkorange;
+
+}
+
+#banner {
+  border: 3px solid pink;
+  width: 50%;
+  margin-left: 30em;
+}
+
+div {
+  border: 3px solid darkmagenta;
   display: flex;
 }
 
+header ul {
+  display: flex;
+  justify-content: space-evenly;  
+  list-style-type: none;
+  background-color: antiquewhite;
+  padding: 0.5%;
+  margin: 1%;
+  border-style:outset;
+}
 
+aside {
+  display: flex;
+  border: 3px solid sandybrown;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  margin: 0 auto;
+  margin-left: 13em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
 
-#caisdosertao {
-  border: 2px;
-  border-color: bisque;
-  border-radius: 2%;
-  width: 30%;
-  align-items:center;
- }
+.redes_sociais {
+  list-style-type: none;
+  font-style: oblique;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+main {
+   border: 3px solid red;
+}
+
+footer {
+  border: 3px solid green;
+}
+
+.fonte1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.fonte2 {
+  font-family: 'Maven Pro', sans-serif;
+}

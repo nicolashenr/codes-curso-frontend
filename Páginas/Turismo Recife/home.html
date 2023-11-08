@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Guia Turístico - Recife</title>
 </head>
 <body>
     <header>
-        <img src="img/Nicole_Turismo.png" alt="Logo do Site - Imagem do planeta terra com uma bandeira vermelha e o nome do lado" width="180px" height="180px">
-        <h1><strong>Guia Turístico da cidade de Recife</strong></h1>
-        <h2>Capital de Pernambuco, Recife: a mistura perfeita de história, cultura e natureza</h2>
-        <nav>
-            <ul id="lista-nav">    
+        <img id="logo" src="img/Nicole_Turismo.png" alt="Logo do Site - Imagem do planeta terra com uma bandeira vermelha e o nome do lado" width="180px" height="180px">
+        <h1 class="fonte1"><strong>Guia Turístico da cidade de Recife</strong></h1>
+        <h2 class="fonte1">Capital de Pernambuco, Recife: a mistura perfeita de história, cultura e natureza</h2>
+        <nav class="fonte2">
+            <ul>    
                 <li><a href="home.html">Home</a></li>
                 <li>Sobre</li>
                 <li>Contato</li>
@@ -22,26 +25,40 @@
                 <li><a href="links_interessantes.html">Links Interessantes</a></li>
             </ul>
         </nav>
-        <img id="banner" src="/Turismo Recife/img/recife_banner.png" alt="Banner de uma rua em Recife, com carros e prédios">
+        <div id="div">
+        <img id="banner" src="/img/recife_banner.png" alt="Banner de uma rua em Recife, com carros e prédios">
+        <aside id="aside">
+            <h3 class="fonte1"><strong>REDES SOCIAIS</strong></h3>
+            <ol class="redes_sociais" class="fonte2">
+                <li>INSTAGRAM</li>
+                <li>FACEBOOK</li>
+                <li>YOUTUBE</li>
+            </ol>
+        </aside>
+        </div>
     </header>
     <main>
         <section>
-        <h2>Uma Breve Introdução</h2>
-        <p id="p">Recife é a capital do estado de Pernambuco, localizada na costa nordeste do Brasil. É a nona capital mais populosa do Brasil, com uma população estimada em 1,65 milhão de habitantes em 2023.
+        <h2 class="fonte1">Uma Breve Introdução</h2>
+        <p id="p" class="fonte2">Recife é a capital do estado de Pernambuco, localizada na costa nordeste do Brasil. É a nona capital mais populosa do Brasil, com uma população estimada em 1,65 milhão de habitantes em 2023.
             A cidade foi fundada em 1537 por Duarte Coelho, um fidalgo português. Recife foi um importante porto comercial durante o período colonial, e a cidade prosperou com o comércio de açúcar e algodão.
             Após a independência do Brasil em 1822, Recife continuou a ser um importante centro econômico e cultural. A cidade é conhecida por sua arquitetura colonial, sua vida noturna vibrante e sua rica cultura.
             Recife é um destino turístico popular, com atrações como o Centro Histórico, o Marco Zero, o Parque das Esculturas e o Carnaval de Recife.</p>
         </section> 
             <br>
-            Aqui estão alguns dos principais pontos turísticos de Recife:
+            <h3 class="fonte1">Aqui estão alguns dos principais pontos turísticos de Recife:</h2>
         <br>
-        <ul>
+        <ul class="fonte2">
             <li>Centro Histórico: O Centro Histórico de Recife é um dos maiores e mais bem preservados da América Latina. A área é repleta de edifícios coloniais, igrejas e museus.</li>
             <li>Marco Zero: O Marco Zero é o ponto zero de Pernambuco, localizado na beira-mar de Recife. O local é um importante ponto de referência para a cidade e é um dos destinos turísticos mais populares.</li>
             <li>Parque das Esculturas: O Parque das Esculturas é um parque público localizado no bairro de Boa Viagem. O parque abriga uma coleção de esculturas de artistas brasileiros e estrangeiros.</li>
             <li>Carnaval de Recife: O Carnaval de Recife é um dos maiores e mais populares do Brasil. O evento é conhecido por suas fantasias coloridas, música animada e dança exuberante.</li>
             <li>Recife é uma cidade vibrante e multicultural que oferece algo para todos. A cidade é um destino turístico popular, e atrai visitantes de todo o mundo.</li>
         </ul>
+        <div>
+            <h2 class="fonte1">Marco Zero</h3>
+            <p class="fonte2">O Marco Zero é o ponto zero de Pernambuco, localizado na beira-mar de Recife. O local é um importante ponto de referência para a cidade e é um dos destinos turísticos mais populares.</p>
+        </div>
     </main>
     <footer>
         <p>Conteúdo e informações criado com o uso de IA.</p>
