@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Kdam+Thmor+Pro&family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Digite o título do seu site</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>Página Inicial</li>
+                <li>Serviços</li>
+                <li>Sobre</li>
+                <li>Depoimentos</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h2>Segundo Título</h2>
+        </div>
+        <aside>
+            <h1>TESTE</h1>
+            <span>uso de span./</span>
+            <span>outro uso de span, precisa quebrar a linha com comando pro que span é inline</span>
+            <br>
+            <q>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam modi ad nemo rerum voluptatem perspiciatis! Quis, commodi molestiae ullam dolorem repellendus fuga similique atque? Consequatur similique exercitationem eius molestiae asperiores.</q>
+            <h6>nome do autor da citação ou sei lá o que, fica bonito o h6?</h6>
+            <p><strong>ou será que um parágrafo com strong é melhor</strong></p>
+            <p><b>de repente um parágrafo apenas com b</b></p>
+            <h6>o h6 é menor que o strong e o b</h6>
+            <h4>o h4 também será? esse é h4</h4>
+            <h5>e esse é o tamanho do h5</h5>
+        </aside>
+        <article>
+            <section id="sessao01">
+                <div>
+                    <h1>Por que por que por que e por que</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum, officiis a exercitationem aspernatur suscipit, quia nisi placeat ut facilis, rem labore voluptatibus! Corporis a sint labore quos. Possimus, facilis!</p>
+                    <img src="./imagens/1.png" alt="">
+                </div>
+            </section>
+            <section id="sessao02">
+                <img src="./imagens/2.png" alt="">
+                <img src="./imagens/3.png" alt="">
+                <img src="./imagens/4.png" alt="">
+                <div>
+                    <h2>As imagens das imagens</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis fugit tempora eos. Nesciunt nemo minus distinctio sequi. Illo aperiam, beatae, temporibus, sunt similique eos eaque reiciendis dolorem cupiditate blanditiis expedita!</p>
+                </div>
+            </section>
+            <br>
+            <div>
+                <h1>Formulário de cadastro</h1>
+                <p>Por favor, preencha os dados</p>
+                <form action="./formulario/forms" method="post">
+                    <fieldset id="forms">
+                        <label for="nome">Digite seu primeiro nome 
+                            <input type="text" id="nome" required>
+                        </label>
+                        <label for="sobrenome">Digite seu sobrenome 
+                            <input type="text" id="sobrenome" required>
+                        </label>
+                        <label for="email">Digite seu E-mail 
+                            <input type="email" id="email" required>
+                        </label>
+                        <label for="senha">Crie uma Senha 
+                            <input type="password" id="senha" pattern=[a-z0-5]{8,} required>
+                        </label>
+                    </fieldset>
+                    <fieldset></fieldset>
+                        <label for="pessoal">
+                            <input type="radio" name="tipo-conta" id="pessoal" checked> 
+                            Pessoal
+                        </label>
+                        <label for="corporativa">
+                            <input type="radio" name="tipo-conta" id="corporativa"> 
+                            Corporativa
+                        </label>
+                        <legend>Tipo de Conta (Necessário)</legend>
+                    <fieldset>
+                        <label for="foto-perfil">Adicione uma foto de perfil
+                            <input type="file" name="foto-perfil" id="foto-perfil">
+                        </label>
+                        <label for="idade">Digite sua idade (anos):
+                            <input type="number" min='13' man="120" name="idade" id="idade">
+                        </label>
+                        <label for="referencia">Como você descobriu esse site?
+                            <select name="referencia-site" id="referencia">
+                                <option value="">Selecione uma opção</option>
+                                <option value="1">Aqui</option>
+                                <option value="2">Ali</option>
+                                <option value="3">Aqui e Ali</option>
+                                <option value="4">Lá e em todo lugar</option>
+                            </select>
+                        </label>
+                        <label for="bio">Escreva uma pequena biografia
+                            <textarea name="biografia" id="bio" cols="30" rows="10" placeholder="Eu gosto de refrigente de laranja - Kel."></textarea>
+                        </label>
+                    </fieldset>
+                    <label for='terms-and-conditions'>
+                        <input type='checkbox' id='terms-and-conditions' required> 
+                        Eu aceito os <a href="https://www.freecodecamp.org/news/terms-of-service/" target="_blank" rel="noopener noreferrer">termos e condições</a>
+                    </label>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </article>
+        <section>
+            <form action="
+            "></form>
+        </section>
+    </main>
+</body>
+</html>
